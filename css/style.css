@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #1f2937;
+}
+.navbar .brand, .navbar .navbar-nav li a, .navbar button span {
+  color: #f9faf8;
+}
+.navbar .collapse.navbar-collapse {
+  justify-content: right;
+}
+
+/*# sourceMappingURL=style.css.map */

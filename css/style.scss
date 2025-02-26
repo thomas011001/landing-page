@@ -1,0 +1,14 @@
+$dark-color : #1f2937;
+$quote-color : #e5e7eb;
+
+
+.navbar {
+    background-color: $dark-color;
+    .brand, .navbar-nav li a, button span{
+        color: #f9faf8; 
+    }
+    
+    .collapse.navbar-collapse {
+    justify-content: right;
+    }
+} 
