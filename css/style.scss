@@ -154,4 +154,21 @@ body {
         flex-direction: column;
         align-items: start;
     }
+    .quote  {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: $dark-color;
+    color: white;
+    span {
+        font-size: 18px;
+        a {
+            color: #f9faf8;
+            font-weight: bold;
+        }
+    }
 }

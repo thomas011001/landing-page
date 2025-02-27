@@ -150,6 +150,23 @@ body {
     flex-direction: column;
     align-items: start;
   }
+  .quote {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #1f2937;
+  color: white;
+}
+footer span {
+  font-size: 18px;
+}
+footer span a {
+  color: #f9faf8;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
