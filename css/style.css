@@ -1,11 +1,67 @@
+body {
+  font-family: "Roboto", serif;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
 .navbar {
   background-color: #1f2937;
 }
-.navbar .brand, .navbar .navbar-nav li a, .navbar button span {
+.navbar .navbar-nav li a {
   color: #f9faf8;
+}
+.navbar .navbar-brand {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar button span {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0,50, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar .collapse.navbar-collapse {
   justify-content: right;
+}
+
+.main {
+  height: calc(100vh - 56px);
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+.main .row {
+  padding-top: 120px;
+}
+.main .row .text-col h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.main .row .text-col p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.main .row .text-col button {
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  padding: 8px;
+  width: 150px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.main .row .img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .row .img-col .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  width: 500px;
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
