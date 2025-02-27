@@ -5,7 +5,7 @@ body {
 }
 * {
     box-sizing: border-box;
-    overflow: hidden;
+        // overflow: hidden;
 }
 
 .navbar {
@@ -29,7 +29,7 @@ body {
 .main {
     height: calc(100vh - 56px);
     background-color: $dark-color;
-    color: #f9faf8;
+    color: #f9faf8; 
     .row {
         padding-top: 120px;
         .text-col {
@@ -62,6 +62,23 @@ body {
                 background-color: gray;
                 width: 500px;
                 height: 250px;
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .main {
+        height: auto;
+        .row {
+            padding-top: 0;
+            .text-col {
+                height: calc(100vh - 56px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .img-col {
+                margin: 5px 0 50px;
             }
         }
     }

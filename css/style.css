@@ -4,7 +4,6 @@ body {
 
 * {
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .navbar {
@@ -62,6 +61,24 @@ body {
   background-color: gray;
   width: 500px;
   height: 250px;
+}
+
+@media (max-width: 991px) {
+  .main {
+    height: auto;
+  }
+  .main .row {
+    padding-top: 0;
+  }
+  .main .row .text-col {
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main .row .img-col {
+    margin: 5px 0 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
