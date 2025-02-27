@@ -114,3 +114,17 @@ body {
         }
     }
 }
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 0    ;
+    i {
+        font-weight: lighter;
+        font-size: 36px;
+        color: #1f2937;
+        span {
+            display: block;
+            font-weight: 600;
+            text-align: right;
+        }
+    }
+}

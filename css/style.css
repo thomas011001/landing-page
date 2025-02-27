@@ -108,4 +108,19 @@ body {
   color: gray;
 }
 
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 0;
+}
+.quote i {
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1f2937;
+}
+.quote i span {
+  display: block;
+  font-weight: 600;
+  text-align: right;
+}
+
 /*# sourceMappingURL=style.css.map */
