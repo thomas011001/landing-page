@@ -128,3 +128,30 @@ body {
         }
     }
 }
+.call {
+    padding: 100px 50px;
+    .msg {
+        background: #3882f6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 70px;
+        color: white;
+        button {
+            background-color: #3882f6;  
+            border: white solid 2px;
+            color: white;
+            padding: 8px;
+            width: 150px;
+            height: 50px;
+            border-radius: 10px;
+            font-weight: bolder;
+        }
+    }
+}
+@media (max-width: 630px) {
+    .call .msg {
+        flex-direction: column;
+        align-items: start;
+    }
+}
