@@ -1,172 +1,147 @@
 body {
-  font-family: "Roboto", serif;
-}
+  font-family: "Roboto", serif; }
 
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .navbar {
-  background-color: #1f2937;
-}
-.navbar .navbar-nav li a {
-  color: #f9faf8;
-}
-.navbar .navbar-brand {
-  color: #f9faf8;
-  font-size: 24px;
-  font-weight: bold;
-}
-.navbar button span {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0,50, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-.navbar .collapse.navbar-collapse {
-  justify-content: right;
-}
+  background-color: #1f2937; }
+  .navbar .navbar-nav li a {
+    color: #f9faf8;
+    transition: 300ms; }
+  .navbar .navbar-nav li a:hover {
+    opacity: 0.5; }
+  .navbar .navbar-brand {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold; }
+  .navbar button span {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0,50, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+  .navbar .collapse.navbar-collapse {
+    justify-content: right; }
 
 .main {
   height: calc(100vh - 56px);
   background-color: #1f2937;
-  color: #f9faf8;
-}
-.main .row {
-  padding-top: 120px;
-}
-.main .row .text-col h1 {
-  font-size: 48px;
-  font-weight: 900;
-}
-.main .row .text-col p {
-  font-size: 18px;
-  color: #e5e7eb;
-}
-.main .row .text-col button {
-  background-color: #3882f6;
-  border: none;
-  color: white;
-  padding: 8px;
-  width: 150px;
-  border-radius: 10px;
-  font-weight: bolder;
-}
-.main .row .img-col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.main .row .img-col .img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: gray;
-  width: 500px;
-  height: 250px;
-}
+  color: #f9faf8; }
+  .main .row {
+    padding-top: 120px; }
+    .main .row .text-col h1 {
+      font-size: 48px;
+      font-weight: 900; }
+    .main .row .text-col p {
+      font-size: 18px;
+      color: #e5e7eb; }
+    .main .row .text-col button {
+      background-color: #3882f6;
+      border: #3882f6 solid 2px;
+      color: white;
+      padding: 8px;
+      width: 150px;
+      border-radius: 10px;
+      font-weight: bolder;
+      transition: 300ms; }
+    .main .row .text-col button:hover {
+      background-color: #1f2937; }
+    .main .row .img-col {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .main .row .img-col .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        width: 500px;
+        height: 250px; }
 
 @media (max-width: 991px) {
   .main {
-    height: auto;
-  }
-  .main .row {
-    padding-top: 0;
-  }
-  .main .row .text-col {
-    height: calc(100vh - 56px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .main .row .img-col {
-    margin: 5px 0 50px;
-  }
-}
+    height: auto; }
+    .main .row {
+      padding-top: 0; }
+      .main .row .text-col {
+        height: calc(100vh - 56px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+      .main .row .img-col {
+        margin: 5px 0 50px; } }
 .info h1 {
   margin: 50px 0;
   text-align: center;
   font-size: 36px;
   color: #1f2937;
-  font-weight: 900;
-}
+  font-weight: 900; }
 .info .row {
-  padding: 0 80px;
-}
-.info .row .my-col .my-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.info .row .my-col .my-card .img {
-  width: 120px;
-  height: 120px;
-  border: #3882f6 solid 2px;
-  border-radius: 5px;
-}
-.info .row .my-col .my-card p {
-  font-size: 15px;
-  color: gray;
-}
+  padding: 0 80px; }
+  .info .row .my-col .my-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px; }
+    .info .row .my-col .my-card .img {
+      width: 120px;
+      height: 120px;
+      border: #3882f6 solid 2px;
+      border-radius: 5px; }
+    .info .row .my-col .my-card p {
+      font-size: 15px;
+      color: gray; }
 
 .quote {
   background-color: #e5e7eb;
-  padding: 100px 0;
-}
-.quote i {
-  font-weight: lighter;
-  font-size: 36px;
-  color: #1f2937;
-}
-.quote i span {
-  display: block;
-  font-weight: 600;
-  text-align: right;
-}
+  padding: 100px 0; }
+  .quote i {
+    font-weight: lighter;
+    font-size: 36px;
+    color: #1f2937; }
+    .quote i span {
+      display: block;
+      font-weight: 600;
+      text-align: right; }
 
 .call {
-  padding: 100px 50px;
-}
-.call .msg {
-  background: #3882f6;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 70px;
-  color: white;
-}
-.call .msg button {
-  background-color: #3882f6;
-  border: white solid 2px;
-  color: white;
-  padding: 8px;
-  width: 150px;
-  height: 50px;
-  border-radius: 10px;
-  font-weight: bolder;
-}
+  padding: 100px 50px; }
+  .call .msg {
+    background: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+    color: white; }
+    .call .msg button {
+      background-color: #3882f6;
+      border: white solid 2px;
+      color: white;
+      padding: 8px;
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+      font-weight: bolder;
+      transition: 300ms; }
+    .call .msg button:hover {
+      background-color: white;
+      color: #1f2937; }
 
 @media (max-width: 630px) {
   .call .msg {
     flex-direction: column;
-    align-items: start;
-  }
+    align-items: start; }
+
   .quote {
     padding-left: 50px;
-    padding-right: 50px;
-  }
-}
+    padding-right: 50px; } }
 footer {
   text-align: center;
   padding: 30px;
   background-color: #1f2937;
-  color: white;
-}
-footer span {
-  font-size: 18px;
-}
-footer span a {
-  color: #f9faf8;
-  font-weight: bold;
-}
+  color: white; }
+  footer span {
+    font-size: 18px; }
+    footer span a {
+      color: #f9faf8;
+      font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
