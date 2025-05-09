@@ -32,7 +32,7 @@ css/
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/thomas011001/landing-page.git
    ```
 2. Open `index.html` in your browser to view the landing page.
 
